@@ -55,44 +55,50 @@ document.querySelector("#app").innerHTML = `
         ${creatCard(
           "Isabelli",
           "7º ano",
-          createGame("cameroon", "16:00", "brasil") +
-            createGame("serbia", "16:00", "suicaa")
+          createGame("Jogo do Scratch") +
+            createGame("")
         )}
         ${creatCard(
           "Kauanny",
           "6º ano",
-          createGame("cameroon", "16:00", "brasil") +
-            createGame("serbia", "16:00", "suicaa")
+          createGame("Jogo do Scratch") +
+            createGame("")
         )}
         ${creatCard(
           "Roberto",
           "6º ano",
-          createGame("cameroon", "16:00", "brasil") +
-            createGame("serbia", "16:00", "suicaa")
+          createGame("Flap bird da Shopee") +
+            createGame("")
         )}
         ${creatCard(
           "Gustavo Bueno",
           "9º ano",
-          createGame("cameroon", "16:00", "brasil") +
-            createGame("serbia", "16:00", "suicaa")
+          createGame("Jogo do scratch") +
+            createGame("")
         )}
         ${creatCard(
           "Gabriel",
-          "6º ano",
-          createGame("cameroon", "16:00", "brasil") +
-            createGame("serbia", "16:00", "suicaa")
+          "7º ano",
+          createGame("Jogo do scratch") +
+            createGame("")
+        )}
+        ${creatCard(
+          "Maria Eduarda",
+          "7º ano",
+          createGame("Jogo do Scratch") +
+            createGame("")
         )}
         ${creatCard(
           "Pedro",
-          "6º ano",
-          createGame("cameroon", "16:00", "brasil") +
-            createGame("serbia", "16:00", "suicaa")
+          "7º ano",
+          createGame("Jogo do scratch") +
+            createGame("")
         )}
         ${creatCard(
           "Victor",
-          "6º ano",
-          createGame("cameroon", "16:00", "brasil") +
-            createGame("serbia", "16:00", "suicaa")
+          "7º ano",
+          createGame("Jogo do Scratch") +
+            createGame("")
         )}
       </main>
 `

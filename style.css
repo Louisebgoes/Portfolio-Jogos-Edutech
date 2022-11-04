@@ -22,9 +22,11 @@ body {
   color:rgb(6, 6, 124);
   padding-top: 20px;
   padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   background-color: rgb(240, 227, 209);
+  border: 3px solid rgb(6, 6, 124);
+  
  }
 
 body * {
@@ -36,6 +38,7 @@ body * {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  text-transform: uppercase;
 }
 
 header {
@@ -51,6 +54,7 @@ header {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 32px;
+  text-transform: uppercase;
 }
 
 .card {
@@ -59,6 +63,7 @@ header {
   background: #1d1c19;
   border-bottom: 2px solid #f7dd43;
   border-radius: 6px;
+  text-transform: uppercase;
 }
 
 .card h2 {
