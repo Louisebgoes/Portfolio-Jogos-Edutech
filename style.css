@@ -55,6 +55,7 @@ header {
   flex-direction: row;
   gap: 32px;
   text-transform: uppercase;
+  padding-bottom: 50px;
 }
 
 .card {
