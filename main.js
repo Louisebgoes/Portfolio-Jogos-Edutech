@@ -1,11 +1,10 @@
-function createGame(nomedojogo,site) {
-  return `
-  <li>
-  <h1> ${nomedojogo} </h1>
+function openInNewTab(site) {
+  window.open(site, '_blank').focus();
+}
 
-  <a target="_blank" href="${site}" alt="página do jogo">
-  
-  </li>
+function createGame(nomedojogo, site) {  
+  return `
+  <button style="height:30px;width:130px" onclick="openInNewTab('${site}');"> ${nomedojogo}</button>  
   `
 }
 
@@ -27,78 +26,62 @@ document.querySelector("#app").innerHTML = `
         ${creatCard(
           "Bruna",
           "6º ano",
-          createGame("Jogo do avião") +
-            createGame(""))}
+          createGame("Calculadora de Suspiro","https://scratch.mit.edu/projects/700642787"))}
         
-          
-          
-
         ${creatCard(
           "Gustavo Maciel",
           "8º ano",
-          createGame("As aventuras de Odin") +
-            createGame("")
-        )}
+          createGame("As aventuras de Odin","https://scratch.mit.edu/projects/715456382"))}
 
         ${creatCard(
           "Hylber",
           "6º ano",
-          createGame("As aventuras de João o Pão e Juninho o taco") +
-            createGame("")
-        )}
+          createGame("As aventuras de João o Pão e Juninho o taco","https://scratch.mit.edu/projects/709518970"))}
+
         ${creatCard(
           "Iasmin",
           "6º ano",
-          createGame("Jogo do scratch") +
-            createGame("")
-        )}
+          createGame("Desafio nas alturas","https://scratch.mit.edu/projects/730885451"))}
+
         ${creatCard(
           "Isabelli",
           "7º ano",
-          createGame("Jogo do Scratch") +
-            createGame("")
-        )}
+          createGame("Jogo do Scratch"))}
+
         ${creatCard(
           "Kauanny",
           "6º ano",
-          createGame("Jogo do Scratch") +
-            createGame("")
-        )}
+          createGame("Jogo do Scratch"))}
+
         ${creatCard(
           "Roberto",
           "6º ano",
-          createGame("Flap bird da Shopee") +
-            createGame("")
-        )}
+          createGame("Flap bird da Shopee"))}
+
         ${creatCard(
           "Gustavo Bueno",
           "9º ano",
-          createGame("Jogo do scratch") +
-            createGame("")
-        )}
+          createGame("Monster Trash Battle","https://scratch.mit.edu/projects/709514538"))}
+
         ${creatCard(
           "Gabriel",
           "7º ano",
-          createGame("Jogo do scratch") +
-            createGame("")
-        )}
+          createGame("Corrida científica","https://scratch.mit.edu/projects/723148726"))}
+
         ${creatCard(
           "Maria Eduarda",
           "7º ano",
-          createGame("Jogo do Scratch") +
-            createGame("")
-        )}
+          createGame("Jogo do Scratch"))}
+
         ${creatCard(
           "Pedro",
           "7º ano",
-          createGame("Jogo do scratch") +
-            createGame("")
-        )}
+          createGame("Jogo do scratch"))}
+
         ${creatCard(
           "Victor",
           "7º ano",
-          createGame("Jogo do Scratch") +
-            createGame("")
-        )}
+          createGame("Jogo do Scratch"))}
+
       </main>
 `
