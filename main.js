@@ -4,7 +4,7 @@ function openInNewTab(site) {
 
 function createGame(nomedojogo, site) {  
   return `
-  <button style="height:30px;width:130px" onclick="openInNewTab('${site}');"> ${nomedojogo}</button>  
+  <button style="height:50px;width:200px;align-itens:center;color:blue;text-transform:uppercase" onclick="openInNewTab('${site}');"> ${nomedojogo}</button>  
   `
 }
 

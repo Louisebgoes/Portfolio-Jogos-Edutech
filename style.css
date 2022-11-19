@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  align-items: center;
 }
 #logo{
   align-items: top;
-  padding-left: 0%;
+  align-items: center;
+  
 }
 
 ul {
@@ -14,18 +16,17 @@ ul {
 
 body {
   background-image: url(fundoprog.jpg);
-  background-size: 100%;
   
 }
+
  .principal .explica {
   text-align: justify;
-  color:rgb(6, 6, 124);
+  color:black;
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: rgb(240, 227, 209);
-  border: 3px solid rgb(6, 6, 124);
+  
   
  }
 
