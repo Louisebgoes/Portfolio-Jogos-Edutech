@@ -4,7 +4,7 @@ function openInNewTab(site) {
 
 function createGame(nomedojogo, site) {  
   return `
-  <button style="height:50px;width:200px;align-itens:center;color:blue;text-transform:uppercase" onclick="openInNewTab('${site}');"> ${nomedojogo}</button>  
+  <button style="height:50px;width:200px;color:white;text-transform:uppercase; background-color:hsl(246, 92%, 62%)" onclick="openInNewTab('${site}');"> ${nomedojogo}</button>  
   `
 }
 
@@ -27,7 +27,17 @@ document.querySelector("#app").innerHTML = `
           "Bruna",
           "6º ano",
           createGame("Calculadora de Suspiro","https://scratch.mit.edu/projects/700642787"))}
-        
+
+          ${creatCard(
+            "Gabriel HENRIQUE",
+            "7º ano",
+            createGame("Corrida científica","https://scratch.mit.edu/projects/723148726"))}
+
+            ${creatCard(
+              "Gustavo Bueno",
+              "9º ano",
+              createGame("Monster Trash Battle","https://scratch.mit.edu/projects/709514538"))}
+
         ${creatCard(
           "Gustavo Maciel",
           "8º ano",
@@ -53,33 +63,23 @@ document.querySelector("#app").innerHTML = `
           "6º ano",
           createGame("Jogo do Scratch"))}
 
+          ${creatCard(
+            "Maria Eduarda",
+            "7º ano",
+            createGame("Jogo do Scratch"))}
+
+            ${creatCard(
+              "Pedro",
+              "7º ano",
+              createGame("Jogo do scratch"))}
+
         ${creatCard(
           "Roberto",
           "6º ano",
           createGame("Flap bird da Shopee"))}
 
-        ${creatCard(
-          "Gustavo Bueno",
-          "9º ano",
-          createGame("Monster Trash Battle","https://scratch.mit.edu/projects/709514538"))}
-
-        ${creatCard(
-          "Gabriel",
-          "7º ano",
-          createGame("Corrida científica","https://scratch.mit.edu/projects/723148726"))}
-
-        ${creatCard(
-          "Maria Eduarda",
-          "7º ano",
-          createGame("Jogo do Scratch"))}
-
-        ${creatCard(
-          "Pedro",
-          "7º ano",
-          createGame("Jogo do scratch"))}
-
-        ${creatCard(
-          "Victor",
+         ${creatCard(
+          "Victor ",
           "7º ano",
           createGame("Jogo do Scratch"))}
 
